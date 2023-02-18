@@ -9,7 +9,7 @@ function Post({post}) {
 
   return (
     <article className={styles.post}>
-    <Image className={styles.imagen} width={400} height={400} src={imagen.data.attributes.formats.small.url} alt={`Imagen blog ${titulo}`}/>
+    <Image className={styles.imagen} width={600} height={600} src={imagen.data.attributes.formats.small.url} alt={`Imagen blog ${titulo}`}/>
 
     <div className={styles.contenido}>
         <h3>{titulo}</h3>
